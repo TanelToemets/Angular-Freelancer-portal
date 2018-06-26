@@ -1,0 +1,26 @@
+<meta meta charset=utf-8>
+
+<div class="hireflForm">
+	<p class="smalltext">Töö esitamiseks täida allolevad väljad:</p>
+	<form action="/action_page.php">
+	  Projekti pealkiri<br>
+	  <input type="text" name="firstname" placeholder="Veebilehe arendus">
+	  <br><br>
+	  Kirjelda projekti<br>
+	  	<textarea rows="10" cols="45" placeholder="Kirjelda põhjalikult oma projekti"></textarea>
+	  <br>
+	  <p class="smalltext">Soovi korral lisa projekti täiendavat kirjeldust sisaldavaid faile.</p>
+	  <input type="file" size="60"/>
+	  <br>
+	  <p>Projekti kategooria</p>
+	  <select name="Kategooria">
+	    <option value="volvo">Veebiarendus</option>
+	    <option value="saab">Mobiilirakenduste arendus</option>
+	    <option value="fiat">Graafiline disain</option>
+	    <option value="audi">Digiturundus</option>
+	  </select><br><br>
+	  <p>Hinnanguline eelarve</p>
+	  <input type="text" name="firstname" placeholder="500"> - <input type="text" name="firstname" placeholder="1000"><br><br>
+	  <input type="submit" class="btn" value="{{ btnText }}" (click)="submitWork()">
+	</form> 
+</div>
